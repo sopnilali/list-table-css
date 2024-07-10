@@ -1,11 +1,18 @@
 .unorderlist{
     max-width: 500px;
-    list-style-type: circle;
+    list-style-image: url("../img/checked.png");
     list-style-position: inside;
     background-color: brown;
     padding: 20px;
     margin: 20px;
     margin: 0 auto;
+}
+.unorderlist p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 5px 0px 5px 0px;
 }
 .unorderlist li{
     background-color: aqua;
@@ -14,6 +21,7 @@
     border: none;
     border-radius: 20px;
 }
+
 .unorderlist li:hover{
     background-color: rgb(224, 16, 78);
     color: white;
@@ -21,12 +29,19 @@
 /* order list style */
 .orderlist{
     max-width: 500px;
-    list-style-type: lower-alpha;
+    list-style-image: url("../img/check-mark.png");
     list-style-position: inside;
     background-color: darkcyan;
     padding: 20px;
     margin: 20px;
     margin: 0 auto;
+}
+.orderlist p{
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
 }
 .orderlist li{
     background-color: coral;
