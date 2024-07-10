@@ -1,0 +1,41 @@
+.unorderlist{
+    max-width: 500px;
+    list-style-type: circle;
+    list-style-position: inside;
+    background-color: brown;
+    padding: 20px;
+    margin: 20px;
+    margin: 0 auto;
+}
+.unorderlist li{
+    background-color: aqua;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    border-radius: 20px;
+}
+.unorderlist li:hover{
+    background-color: rgb(224, 16, 78);
+    color: white;
+}
+/* order list style */
+.orderlist{
+    max-width: 500px;
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+    background-color: darkcyan;
+    padding: 20px;
+    margin: 20px;
+    margin: 0 auto;
+}
+.orderlist li{
+    background-color: coral;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    border-radius: 20px;
+}
+.orderlist li:hover{
+    background-color: rgb(224, 16, 78);
+    color: white;
+}
