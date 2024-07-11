@@ -54,3 +54,37 @@
     background-color: rgb(224, 16, 78);
     color: white;
 }
+/* table section */
+.table-container{
+    border-collapse: separate;
+    text-align: center;
+    max-width: 400px;
+    border-radius: 10px;
+    border-spacing: 0;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.table-container tr:nth-child(odd){
+    color: white;
+    background-color: gray;
+}
+.table-container tr:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+.table-container th{
+    width: 100px;
+    background-color: aqua;
+    padding: 5px;
+    color: red;
+}
+.table-container td{
+    width: 100px;
+    padding: 5px;
+}
+.table-container .td-name{
+    background-color: aqua;
+    font-weight: 800;
+}
